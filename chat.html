@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/styles.css" />
+        <link
+            rel="shortcut icon"
+            sizes="16x16 32x32 64x64"
+            href="img/icon.png"
+        />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Chat-SUBtalk</title>
+    </head>
+    <body id="chat-screen">
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fas fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span>10:31</span>
+            </div>
+            <div class="status-bar__column">
+                <span>0%</span>
+                <i class="fas fa-battery-empty fa-lg"></i>
+                <i class="fas fa-poop"></i>
+            </div>
+        </div>
+
+        <header class="alt-header">
+            <div class="alt-header__column">
+                <a href="chats.html"><i class="fas fa-angle-left fa-2x"></i></a>
+            </div>
+            <div class="alt-header__column">
+                <h1 class="alt-header__title">
+                    한양공고 1학년 컴넷A반
+                    <span>23</span>
+                </h1>
+            </div>
+            <div class="alt-header__column">
+                <span><i class="fas fa-search fa-lg"></i></span>
+                <span><i class="fas fa-bars fa-lg"></i></span>
+            </div>
+        </header>
+
+        <main class="main-chat">
+            <div class="chat__timestamp">2021년 10월 31일 일요일</div>
+
+            <div class="message-row">
+                <img src="img/teacher-avatar.PNG" />
+                <div class="message-row__content">
+                    <span class="message__author">담임선생님</span>
+                    <div class="message__info">
+                        <span class="message__bubble">최고야 짜릿해...</span>
+                        <div class="message-read-time">
+                            <span class="message-readed">14</span>
+                            <span class="message__time">10:31</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="message-row message-row--me">
+                <div class="message__info">
+                    <span class="message__bubble">짜릿하기까지... 😖</span>
+                    <div class="message-read-time">
+                        <span class="message-readed">14</span>
+                        <span class="message__time">10:31</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <form class="reply">
+            <div class="reply__column">
+                <i class="far fa-file fa-lg"></i>
+            </div>
+            <div class="reply__column">
+                <input type="text" placeholder="장식용..." />
+                <i class="far fa-angry fa-lg"></i>
+                <button>
+                    <i class="fas fa-arrow-up"></i>
+                </button>
+            </div>
+        </form>
+        <div id="no-mobile">
+            <span>화면이 크고 아릅답네요 :( </span>
+        </div>
+        <script
+            src="https://kit.fontawesome.com/5883cfde0f.js"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

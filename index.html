@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/styles.css" />
+        <link
+            rel="shortcut icon"
+            sizes="16x16 32x32 64x64"
+            href="img/icon.png"
+        />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Welcome to SUBtalk</title>
+    </head>
+    <body>
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fas fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span>10:31</span>
+            </div>
+            <div class="status-bar__column">
+                <span>0%</span>
+                <i class="fas fa-battery-empty fa-lg"></i>
+                <i class="fas fa-poop"></i>
+            </div>
+        </div>
+
+        <header class="welcome-header">
+            <h1 class="welcome-header__title">Welcome to SUBtalk</h1>
+            <p class="welcome-header__text">
+                If you don't have a GF or BF, log in with your email or phone
+                number.
+            </p>
+        </header>
+
+        <form action="friends.html" method="get" id="login-form">
+            <input
+                name="id"
+                required
+                type="text"
+                placeholder="Email or phone number"
+            />
+            <input name="pwd" required type="password" placeholder="Password" />
+            <input type="submit" value="Log In" />
+            <a
+                href="https://www.youtube.com/watch?v=o27kCZiXfKI"
+                target="_blank"
+                >Make Girlfriend or Boyfriend</a
+            >
+        </form>
+
+        <div id="splash-screen">
+            <i class="fas fa-comment fa-lg"></i>
+            <span>송</span>
+        </div>
+
+        <div id="no-mobile">
+            <span>화면이 크고 아릅답네요 :( </span>
+        </div>
+        <script
+            src="https://kit.fontawesome.com/5883cfde0f.js"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
