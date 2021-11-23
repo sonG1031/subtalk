@@ -138,6 +138,7 @@
 }
 .reply input {
     border: none;
+    width: 100%;
     background-color: #f8f8f8;
 }
 .reply input::placeholder {
