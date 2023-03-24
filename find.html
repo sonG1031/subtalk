@@ -59,8 +59,24 @@
                 </div>
             </div>
             <div class="recommended-friends">
-                <h6 class="recommended-friends__title">Recommended Homies</h6>
-                <span>You have no recommended Homies.</span>
+                <h6 class="recommended-friends__title">Naver SearchEngine</h6>
+                <span>
+                    <form
+                        action="https://m.search.naver.com/search.naver"
+                        method="get"
+                        class="naverSearch"
+                    >
+                        <div class="naverSearch-box">
+                            <input
+                                name="query"
+                                type="text"
+                                required
+                                placeholder="네이버 검색"
+                            />
+                            <button><i class="fas fa-search fa-lg"></i></button>
+                        </div>
+                    </form>
+                </span>
             </div>
             <div class="open-chat">
                 <div class="open-chat__header">
@@ -125,7 +141,7 @@
             </ul>
         </nav>
         <div id="no-mobile">
-            <span>화면이 크고 아릅답네요 :( </span>
+            <!-- <span>화면이 크고 아릅답네요 :( </span> -->
         </div>
         <script
             src="https://kit.fontawesome.com/5883cfde0f.js"

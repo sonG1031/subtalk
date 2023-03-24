@@ -10,7 +10,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Welcome to SUBtalk</title>
+        <title>Sign Up-SUBtalk</title>
     </head>
     <body>
         <div class="status-bar">
@@ -28,27 +28,31 @@
             </div>
         </div>
 
-        <header class="welcome-header">
-            <h1 class="welcome-header__title">Welcome to SUBtalk</h1>
-            <p class="welcome-header__text">Login with your email</p>
+        <header class="alt-header">
+            <div class="alt-header__column">
+                <!-- <a href="more.html"><i class="fas fa-angle-left fa-2x"></i></a> -->
+            </div>
+            <div class="alt-header__column">
+                <h1 class="alt-header__title">Sign Up</h1>
+            </div>
+            <div class="alt-header__column">
+                <!-- <i class="fas fa-search fa-lg"></i> -->
+            </div>
         </header>
 
-        <form method="get" id="login-form" onsubmit="check_valid()">
+        <main class="main-screen"></main>
+        <form method="get" id="login-form" class="signup" onsubmit="signUp()">
             <input name="id" required type="email" placeholder="Email" />
+            <input
+                name="phone"
+                required
+                type="text"
+                placeholder="Phone Number"
+            />
+            <input name="name" required type="text" placeholder="Name" />
             <input name="pwd" required type="password" placeholder="Password" />
-            <input type="submit" value="Log In" />
-            <a href="signup.html">Sign Up</a>
+            <input type="submit" value="Sign Up" />
         </form>
-
-        <!-- <div class="welcome-header alert">
-            <span></span>
-        </div> -->
-
-        <div id="splash-screen">
-            <i class="fas fa-comment fa-lg"></i>
-            <span>송</span>
-        </div>
-
         <div id="no-mobile">
             <!-- <span>화면이 크고 아릅답네요 :( </span> -->
         </div>

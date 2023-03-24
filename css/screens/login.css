@@ -69,8 +69,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: hideScreen 2s ease-in-out forwards;
-    animation-delay: 1s;
+    animation: hideScreen 1s ease-in-out forwards;
+    animation-delay: 0.1s;
 }
 #splash-screen i {
     font-size: 90px;

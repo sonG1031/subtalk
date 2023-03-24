@@ -26,3 +26,29 @@ body {
 .main-screen {
     padding: var(--horizontal-space);
 }
+
+/* 네이버 검색 스타일 */
+.naverSearch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.naverSearch input,
+.naverSearch button {
+    padding: 15px;
+    border: none;
+}
+
+.naverSearch input {
+    border-radius: 10px 0 0 10px;
+}
+.naverSearch button {
+    background-color: #2e363e;
+    color: white;
+    border-radius: 0 9px 9px 0;
+}
+
+.naverSearch-box {
+    border: 1px solid #2e363e;
+    border-radius: 10px;
+}
